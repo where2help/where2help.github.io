@@ -1,2 +1,2 @@
 # refugeehackvienna.github.io
-where2hack basic website
+where2help basic website
