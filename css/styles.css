@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: #0C212C;
+  line-height: 1.75;
+  font-size: 90%;
+}
+
+p, h1, h2 {
+  margin: 35px;
+}
+
+.text {
+  width: 90%;
+  max-width: 550px;
+  margin: auto;
+}
+
+div#header {
+  background: #0C212C;
+  text-align: center;
+}
+
+#header img {
+  height: 55px;
+  margin: 15px;
+}
+
+div#opener {
+  min-height: 250px;
+  padding-top: 200px;
+}
+
+#opener h1 {
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+}
+
+#opener h2 {
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+}
+
+div#container {
+  position: relative;
+  top: 50px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+#rfhv-logo {
+  width: 50%;
+  min-width: 200px;
+  max-width: 450px;
+}
+
+.screenshot-desktop {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  border: solid 1px #EEEDE7;
+}
+
+.screenshot-mobile {
+  width: 40%;
+  max-width: 400px;
+  margin: 15px;
+  border: solid 1px #EEEDE7;
+}
+
+a.btn {
+  background: #0C212C;
+  padding: 10px;
+  border: solid 1px #234657;
+  border-radius: 10px;
+  color: #F4EFE3;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+img.plattform {
+  width: 52px;
+  margin: 25px;
+}
