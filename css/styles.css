@@ -79,7 +79,7 @@ div#container {
   border: solid 1px #EEEDE7;
 }
 
-a.btn {
+a.btn, input.btn {
   background: #0C212C;
   padding: 10px;
   border: solid 1px #234657;
@@ -92,4 +92,54 @@ a.btn {
 img.plattform {
   width: 52px;
   margin: 25px;
+}
+
+/* Newsletter form */
+.text-center {
+    text-align: center;
+}
+
+#mc_embed_signup {
+  clear:left;
+  font: 18px 'Open Sans', sans-serif;
+  color: #fff;
+  margin: auto;
+  margin-top: -29px;
+}
+
+#mc_embed_signup .mc-field-group {
+  display: inline-block;
+  max-width: 360px;
+  /*margin-left: 33.33333333333333%;*/
+  margin-left: -4%;
+  padding-bottom: 0;
+}
+
+#mc_embed_signup .mc-field-group input {
+    font-size: 20px;
+    padding: 12px 0;
+    font-weight: 300;
+}
+
+#mc_embed_signup div.mce_inline_error {
+
+}
+
+#mc_embed_signup .button {
+  height: 48px;
+  background: #0C212C;
+  padding: 10px;
+  font: 18px 'Open Sans', sans-serif;
+  /*border: solid 1px #234657;
+  border-radius: 10px;
+  color: #F4EFE3;*/
+}
+
+#mc_embed_signup .button:hover {
+  background: #0C212C;
+}
+
+#mce-success-response {
+  background: rgba(132, 204, 201, 0.7);
+  padding: 10px;
 }
